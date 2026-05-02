@@ -1,27 +1,145 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
 }
-
 header {
   background-color: #f8d7da;
   padding: 20px;
   text-align: center;
 }
-
 nav a {
   margin: 0 10px;
   text-decoration: none;
   color: black;
 }
-
 main {
   padding: 20px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 footer {
   text-align: center;
   padding: 15px;
   background-color: #f1f1f1;
+}
+h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+.about-card {
+  background-color: #fff7f8;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 700px;
+  /* center it */
+  margin: 60px auto;
+  /* frame look */
+  border: 2px solid #f3c6cc;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  /* text */
+  line-height: 1.7;
+  text-align: center;
+}
+.home-main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card {
+  background-color: #fff7f8;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 750px;
+  margin: 60px auto;
+  border: 2px solid #f3c6cc;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  line-height: 1.7;
+  text-align: center;
+}
+
+.home-card img {
+  margin-top: 15px;
+  border-radius: 12px;
+  border: 2px solid #f3c6cc;
+}
+.services-main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-card {
+  background-color: #fff7f8;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 750px;
+  margin: 60px auto;
+  border: 2px solid #f3c6cc;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* make table look nicer */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #f3c6cc;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.portfolio-main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-card {
+  background-color: #fff7f8;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 750px;
+  margin: 60px auto;
+  border: 2px solid #f3c6cc;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  line-height: 1.7;
+  text-align: center;
+}
+
+.portfolio-card video {
+  display: block;
+  width: 320px;
+  max-width: 100%;
+  margin: 15px auto 25px auto;
+  border-radius: 12px;
 }
